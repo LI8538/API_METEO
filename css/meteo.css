@@ -11,16 +11,33 @@ body {
 
 }
 
+h1{
+  background-color: #0d37a9d7;
+  color: #f9f9f9;
+  padding: 18px;
+}
+
+label{
+  font-size: 30px;
+}
+#cityInput{
+  font-size: 20px;
+}
+
+form{
+  margin: 10px;
+}
+
 #weatherContainer {
   display: grid;
   aspect-ratio: 1/1; /* Ratio hauteur-largeur de 1:1 */
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 5px;
+  gap: 10px;
   height: 400px;
-  background-color: #ffffff; */
+  /* background-color: #ffffff; 
   padding: 20px;
-  margin: 20px; 
+  margin: 20px;  */
 }
 
 .weatherBox {
