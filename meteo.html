@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="css/meteo.css" />
+    <title>METEO API</title>
+
+  </head>
+
+  <body>
+
+    <form id="weatherForm">
+      <label for="cityInput">Ville :</label>
+      <input type="text" id="cityInput" required>
+      <button type="submit">Rechercher</button>
+    </form>
+    <div id="weatherContainer">
+      <div class="weatherBox" id="temperatureBox">
+        <h3>Température</h3>
+        <p id="temperature"></p>
+      </div>
+      <div class="weatherBox" id="windBox">
+        <h3>Vitesse du vent</h3>
+        <p id="windSpeed"></p>
+      </div>
+      <div class="weatherBox" id="pressureBox">
+        <h3>Pression</h3>
+        <p id="pressure"></p>
+      </div>
+      <div class="weatherBox" id="humidityBox">
+        <h3>Taux d'humidité</h3>
+        <p id="humidity"></p>
+      </div>
+    </div>
+
+
+
+<script src="api_meteo.js"></script>
+  </body>
+
+</html>
